@@ -1,0 +1,30 @@
+html {
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	padding-left:10px;
+}
+
+h1 {
+	font-size: 80px;
+	margin: 0px;
+}
+
+#links a {
+	display: block;
+	font-size: 60px;
+	text-decoration: none;
+	color: black;
+}
+
+#links a em {
+	display: none;
+	color: orange;
+}
+
+
+#links a:hover {
+	color: #ccc;
+}
+
+#links a:hover em {
+	display: inline;
+}
